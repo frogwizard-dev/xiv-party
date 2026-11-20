@@ -1,0 +1,17 @@
+## Interface: 16001, 120000, 120001, 120005, 120007, 120100
+## Title: XIVParty
+## Category: Frog Wizard
+## Notes: FFXIV's party list to go with XIVPlayer and XIVTarget: you and your party with job icons, HP and MP gauges, casts and status effects, and in a raid the other groups as alliance lists.
+## Version: 0.1.0
+## X-Curse-Project-ID: 1818758
+## OptionalDeps: EllesmereUI
+## SavedVariables: XIVPartyDB
+## IconTexture: Interface\Icons\Spell_Holy_PrayerOfHealing
+## AddonCompartmentFunc: XIVParty_OnCompartmentClick
+
+Libs\FrogLib\FrogLib.xml
+Core.lua
+Row.lua
+Party.lua
+Alliance.lua
+Config.lua
